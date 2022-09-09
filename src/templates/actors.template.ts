@@ -39,13 +39,13 @@ export const ActorTemplate = (item: TWithFields) => {
 }
 
 export const SkillTemplate = (item: TWithFields) => {
-  if (item.id > 388 && item.id < 417) {
+  if (item.id > 388+9 && item.id < 417+9) {
     return BaseTemplate(item, {})
   }
 }
 
 export const AttributeTemplate = (item: TWithFields) => {
-  if (item.id > 416) {
+  if (item.id > 416+9) {
     return BaseTemplate(item, {})
   }
 }
