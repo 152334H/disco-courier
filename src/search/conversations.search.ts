@@ -110,7 +110,7 @@ export const conversations = {
       returnKey: 'floorNumber',
       returnValueFn: <TKeyOutputFunction>(value: string): number => {
         const retVal = value?.replace(
-          /(ROOF)|F{1}(\d{1})|S{1}(\d{1})$)/,
+          /(ROOF)|F{1}(\d{1})|S{1}(\d{1})$/,
           (
             orig: string,
             roof: string,
