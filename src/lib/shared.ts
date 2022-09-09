@@ -38,7 +38,17 @@ const options = {
         variables: <number>10510,
         conversations: <number>134504
       }
+    },
+    {
+    "version": "5/20/2022 12:05:57 PM",
+    "rowCounts": {
+      "locations": 0,
+      "actors": 424,
+      "items": 259,
+      "variables": 10645,
+      "conversations": 1501
     }
+}
   ]
 }
 
